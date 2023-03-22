@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--    ETML
+//      Author : Youness Takache
+//      Date : 19.11.2021
+//      Description : Display of the main page of the Music Player   -->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Music.MainPage">
+    <Grid>
+        <!-- Header of the application -->
+        <StackLayout Grid.Row="0">
+            <Label FontSize="55" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="#00A0FF" TextColor="White" Padding="10">Music</Label>
+        </StackLayout>
+        <!-- Scroll view for all songs scanned on folder -->
+        <ScrollView Grid.Row="1" Grid.RowSpan="6" x:Name="scrollView">
+            <StackLayout x:Name="musicsToDisplay">
+                <!--Will contain all music files-->
+            </StackLayout>
+        </ScrollView>
+        <!-- Sticky footer to pause or resume song -->
+        <StackLayout Grid.Row="7" BackgroundColor="#00A0FF">
+            <Label x:Name="nowPlaying" HorizontalTextAlignment="Center" TextColor="White" Margin="0,5,0,0">No music being played at the moment</Label>
+            <ImageButton x:Name="pausePlayButton" Source="play.png" Clicked="PauseButton_Clicked" HorizontalOptions="Center" HeightRequest="50" BorderColor="Transparent" BackgroundColor="Transparent"></ImageButton>
+        </StackLayout>
+    </Grid>
+</ContentPage>

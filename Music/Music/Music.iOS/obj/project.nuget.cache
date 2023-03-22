@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6ymtenx/zyLMRbWhv4gevLZFchHX6CsuY1ubRPxR3mDXRefH+X/Umj3qHBy6/ImyFcfEwmjZ00W5gREOlVC+LA==",
+  "success": true,
+  "projectFilePath": "E:\\GitHub\\Music\\Music\\Music\\Music.iOS\\Music.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Youness\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Youness\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Youness\\.nuget\\packages\\xamarin.forms\\5.0.0.2244\\xamarin.forms.5.0.0.2244.nupkg.sha512"
+  ],
+  "logs": []
+}
